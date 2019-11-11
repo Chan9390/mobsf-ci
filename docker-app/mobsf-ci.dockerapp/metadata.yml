@@ -1,5 +1,5 @@
 # Version of the application
-version: 0.3.0
+version: 0.4.0
 # Name of the application
 name: mobsf-ci
 # A short description of the application
@@ -10,6 +10,8 @@ namespace: omerl
 maintainers:
   - name: omerl
     email: omer.levihevroni@owasp.org
+  - name: Chandrapal Badshah
+    email: badshah@badshah.io
 # Specify false here if your application doesn't support Swarm or Kubernetes
 targets:
   swarm: true

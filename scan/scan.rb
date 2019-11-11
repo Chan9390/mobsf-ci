@@ -32,7 +32,7 @@ begin
   end
 
   if (response.code.to_i > 299)
-    p "MobSF reques failed for unknown reason, status code: #{response.code}, body: #{response.body}"
+    p "MobSF request failed for unknown reason, status code: #{response.code}, body: #{response.body}"
     exit 1
   end
 
@@ -54,7 +54,7 @@ begin
   end
 
   if (response.code.to_i > 299)
-    p "MobSF reques failed for unknown reason, status code: #{response.code}, body: #{response.body}"
+    p "MobSF request failed for unknown reason, status code: #{response.code}, body: #{response.body}"
     exit 1
   end
 
@@ -62,7 +62,7 @@ rescue SocketError => e
   puts "MobSF request failed due to network error: #{e}"
   exit 1
 rescue Exception => e  
-  puts "MobSF request failed due to unknwon error #{e}"
+  puts "MobSF request failed due to unknown error #{e}"
   exit 1
 end
 

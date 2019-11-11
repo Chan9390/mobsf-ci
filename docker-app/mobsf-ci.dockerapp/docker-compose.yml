@@ -7,7 +7,7 @@ services:
       - MOBSF_API_KEY=12345
     ports:
      - 8000:8000
-  
+
   scan:
     image: omerl/mobsf-ci:latest
     environment:
